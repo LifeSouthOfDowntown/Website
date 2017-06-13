@@ -43,3 +43,7 @@
   src: url("fonts/obvious-icons/obvious-icons.eot?#iefix") format("embedded-opentype"), url("fonts/obvious-icons/obvious-icons.woff2") format("woff2"), url("fonts/obvious-icons/obvious-icons.ttf") format("truetype"), url("fonts/obvious-icons/obvious-icons.svg#fontcustom") format("svg");
   font-weight: normal;
   font-style: normal; }
+
+body {
+  font-family: 'Calibre', Fallback, sans-serif;
+}
