@@ -45,5 +45,40 @@
   font-style: normal; }
 
 body {
-  font-family: 'Calibre', Fallback, sans-serif;
+  font-family: 'Calibre', 'sans-serif';
+}
+
+
+#ImgTheCrime {
+	background-image:url('/images/TheCrime-Mobile.png');
+}
+#ImgTheGhetto {
+	background-image:url('/images/TheGhetto-Mobile.png');
+}
+
+@media all and (min-device-width: 600px) {
+	
+	#ImgTheCrime {
+		background-image:url('/images/TheCrime-NotMobile.png');
+	}
+	#ImgTheGhetto {
+		background-image:url('/images/TheGhetto-NotMobile.png');
+	}
+	
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (min-device-width: 1024px),
+only screen and (min-device-pixel-ratio: 2) and (min-device-width: 1024px),
+only screen and (min-resolution: 192dpi) and (min-device-width: 1024px),
+only screen and (min-resolution: 2dppx) and (min-device-width: 1024px) {
+	
+	#ImgTheCrime {
+		background-image:url('/images/TheCrime-HighRes.png');
+	}
+	#ImgTheGhetto {
+		background-image:url('/images/TheGhetto-HighRes.png');
+	}
+	
 }
